@@ -412,11 +412,6 @@ const FormProtectDerivation = ({ token }) => {
                 }
             </Formik>
         </Paper>
-
-
-
-
-
     )
 }
 
