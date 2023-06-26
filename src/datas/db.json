@@ -1,0 +1,39 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Bienvenue a mon blog",
+      "body": "a, dui Cras pellensque sed dictum",
+      "author": "Alain",
+      "date": "02/01/2021"
+    },
+    {
+      "id": 2,
+      "title": "La nuit des codeurs",
+      "body": "circus vestibulum Mauris magne Duis dignissim",
+      "author": "Nathan",
+      "date": "02/01/2021"
+    },
+    {
+      "title": "salut le pro",
+      "author": "Nathan",
+      "body": "notre contenu",
+      "date": "2023-03-27 22:18:24.805Z",
+      "id": 3
+    },
+    {
+      "title": "Deuxième article",
+      "author": "Alain",
+      "body": "lorem ipsum jkgib zjb fkb zjkfbbjf kj",
+      "date": "2023-03-27 22:25:10.267Z",
+      "id": 4
+    },
+    {
+      "title": "Remplacement poteau",
+      "author": "Nathan",
+      "body": "poteaux bois mt tombé à Dimako suite violent orage",
+      "date": "2023-03-28 11:01:48.106Z",
+      "id": 9
+    }
+  ]
+}

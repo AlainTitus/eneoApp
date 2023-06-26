@@ -1,0 +1,231 @@
+@import url("https://cdn.syncfusion.com/ejs/material.css");
+
+*{
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+}
+#root{
+    width: 100%;
+    height: 100%;
+}
+.App{
+    /* text-align: center; */
+    /* margin-top: 20px; */
+    /* display: flex;
+    flex-direction: column; */
+}
+
+/* CSS du header */
+.p-lien{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lien-nav{
+    text-decoration: none;
+    color:inherit
+}
+.navBar{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.left-side-header{
+    display: flex;
+    justify-content: left;
+}
+.logo{
+    margin-right: 10px;
+}
+
+.header-bienvenue{
+    color: #1976d2;
+}
+
+/* CSS page formulaire */
+.form-accueil{
+    flex-grow: 1;
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    background-color:#b5d3df;
+}
+.form-container{
+    width:30%
+}
+.titre-form{
+    font-size: 2.2em;
+    color:#1976d2;
+    text-align:center
+}
+.btn-form-accueil{
+    width:50%;
+    font-size:1.2em;
+}
+.label-connexion{
+    margin: 5px 0 5px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.paper-form{
+    padding:20px 20px 20px 20px;
+}
+
+
+/* Page non trouvée */
+
+.page-erreur{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: stretch;
+    background-color:#283747;
+    color: white;
+} 
+
+
+/*******Page accueil****/
+.ul-accueil{
+    padding-left: 20px;
+}
+.ul-accueil li{
+    list-style-type: disc;
+    margin: 16px 0;
+}
+
+.span-projet{
+    font-weight: bold;
+    color: #1976d2;
+    font-size: '24px'
+}
+
+
+.leaflet-container{
+    width: 80%;
+    height: 600px;
+}
+.range-field::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    box-shadow: -410 0 0 400px #00fd0a;
+    cursor: pointer;
+    background: #000;
+}
+
+/********Form protection dérivation *********/
+
+.form-protect-deriv{
+    width: 80%;
+    margin: 0 auto;
+}
+.container1{
+  display: flex;
+}
+.form-protect-deriv-container-field{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.div-protect-deriv-input-label{
+    width: 20%;
+    margin: 10px 5px;
+}
+.form-protect-deriv-txtarea{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+.form-protect-deriv-txtarea .div-protect-deriv-input{
+    width: 100%;
+}
+textarea[name='commentaire']{
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid rgb(120, 120, 120);
+    border-radius: 5px;
+}
+textarea[name='commentaire']:focus{
+    border: 2px solid #1976d2;
+    background-color: #c8e1fa;
+}
+.form-protect-deriv-btn{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+.div-protect-deriv-input input{
+    width: 100%;
+    height: 3em;
+    padding: 5px;
+    outline: none;
+    border: 1px solid rgb(120, 120, 120);
+    border-radius: 5px;
+}
+.div-protect-deriv-input input:focus{
+    border: 2px solid #1976d2;
+    background-color: #c8e1fa;
+}
+.div-protect-deriv-label label{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.div-protect-deriv-label{
+    padding: 0 0 0 5px;
+    margin-bottom: 5px;
+}
+
+.form-protect-deriv-btn button{
+    color: white;
+    background-color: #1976d2;
+    width: 150px;
+    padding: 5px;
+    font-size: 1.1rem;
+    border: 0;
+    border-radius: 5px; 
+}
+.form-protect-deriv-formik-error{
+    color:crimson;
+    font-style:italic;
+    font-size:14px;
+}
+
+/**** formulaire formik ***/
+.formik-label{
+    padding: 5px;
+}
+.formik-input{
+    width: 100%;
+    height: 3rem;
+    padding:0.5rem;
+    outline: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+.formik-input:focus{
+    border: 1.5px solid #1976d2;
+    background-color: #c8e1fa;
+}
+.formik-error{
+    color: red;
+}
+.formik-textarea{
+    font-size: 1.05rem;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
