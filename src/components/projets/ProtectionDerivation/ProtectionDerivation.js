@@ -127,7 +127,7 @@ const ProtectionDerivation = ({ token }) => {
                 <Stack>
                     {load && <FormProtectDerivation token={token} />}
                     {update && <TableProtectDerivation derivations={derivations} token={token} />}
-                    {analyse && <AnalyseDerivation derivations={derivations} />}
+                    {analyse && <AnalyseDerivation derivations={derivations} token={token} />}
                 </Stack>
             </Paper>
 

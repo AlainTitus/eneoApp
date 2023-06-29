@@ -66,8 +66,8 @@ const list_departs = [
         value: 'D32 BELABO'
     },
     {
-        key: "A32 Abong Mbang",
-        value: 'A32 ABONG MBANG'
+        key: "A32 BERTOUA",
+        value: 'A32 BERTOUA'
     },
     {
         key: "D31 Abong Mbang",
